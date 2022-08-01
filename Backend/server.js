@@ -45,7 +45,7 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-    .connect(/*'mongodb+srv://etravelvikasnannu:etravelvikasnannu@etravelvikasnannumern.hmgjq.mongodb.net/myTravelData'*/)
+    .connect(/**/)
     .then(() => {
         app.listen(process.env.PORT || 5000);
         console.log("SERVER STARTED");
